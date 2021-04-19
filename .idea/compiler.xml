@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="seata-common" />
+        <module name="seata-config-all" />
+        <module name="seata-config-apollo" />
+        <module name="seata-config-consul" />
+        <module name="seata-config-core" />
+        <module name="seata-config-custom" />
+        <module name="seata-config-etcd3" />
+        <module name="seata-config-nacos" />
+        <module name="seata-config-spring-cloud" />
+        <module name="seata-config-zk" />
+        <module name="seata-discovery-all" />
+        <module name="seata-discovery-consul" />
+        <module name="seata-discovery-core" />
+        <module name="seata-discovery-custom" />
+        <module name="seata-discovery-etcd3" />
+        <module name="seata-discovery-eureka" />
+        <module name="seata-discovery-nacos" />
+        <module name="seata-discovery-redis" />
+        <module name="seata-discovery-sofa" />
+        <module name="seata-discovery-zk" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

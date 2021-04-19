@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/seata-config-all" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/seata-config-apollo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/seata-config-consul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/seata-config-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/seata-config-custom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/seata-config-etcd3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/seata-config-nacos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/seata-config-spring-cloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/seata-config-zk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery/seata-discovery-all" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery/seata-discovery-consul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery/seata-discovery-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery/seata-discovery-custom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery/seata-discovery-etcd3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery/seata-discovery-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery/seata-discovery-nacos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery/seata-discovery-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery/seata-discovery-sofa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery/seata-discovery-zk" charset="UTF-8" />
+  </component>
+</project>
