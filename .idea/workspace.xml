@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cf37b7b-aa27-4d3f-b931-7038fdcc0525" name="Default Changelist" comment="" />
+    <list default="true" id="2cf37b7b-aa27-4d3f-b931-7038fdcc0525" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/seata-config-nacos/target/classes/io/seata/config/nacos/NacosConfiguration$NacosListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/seata-config-nacos/target/classes/io/seata/config/nacos/NacosConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/seata-config-nacos/target/classes/io/seata/config/nacos/NacosConfigurationProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/seata-discovery-consul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/seata-discovery-consul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/seata-discovery-custom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/seata-discovery-custom/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/seata-discovery-etcd3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/seata-discovery-etcd3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/seata-discovery-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/seata-discovery-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/seata-discovery-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/seata-discovery-nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/seata-discovery-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/seata-discovery-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/seata-discovery-sofa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/seata-discovery-sofa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/seata-discovery-zk/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/seata-discovery-zk/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -51,58 +65,59 @@
     <session id="439130615">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
-          <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="11" />
-          <entry key="project.open.time.2" value="4" />
+          <entry key="project.closed" value="33" />
+          <entry key="project.open.time.0" value="8" />
+          <entry key="project.open.time.1" value="18" />
+          <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ConfigurationProvider" value="15" />
           <entry key="FileConfig" value="4" />
-          <entry key="conf" value="28" />
-          <entry key="java" value="17995" />
-          <entry key="xml" value="631" />
+          <entry key="conf" value="29" />
+          <entry key="java" value="22367" />
+          <entry key="xml" value="773" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17995" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="JAVA" value="22367" />
+          <entry key="PLAIN_TEXT" value="44" />
           <entry key="SPI" value="4" />
-          <entry key="XML" value="631" />
+          <entry key="XML" value="773" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ConfigurationProvider" value="18" />
-          <entry key="FileConfig" value="6" />
+          <entry key="FileConfig" value="7" />
           <entry key="Hello" value="8" />
-          <entry key="LoadBalance" value="1" />
-          <entry key="class" value="86" />
-          <entry key="conf" value="33" />
+          <entry key="LoadBalance" value="2" />
+          <entry key="RegistryProvider" value="10" />
+          <entry key="class" value="116" />
+          <entry key="conf" value="36" />
           <entry key="iml" value="4" />
-          <entry key="java" value="456" />
+          <entry key="java" value="584" />
           <entry key="jsp" value="1" />
-          <entry key="properties" value="6" />
-          <entry key="xml" value="58" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="79" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="86" />
+          <entry key="CLASS" value="116" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="456" />
+          <entry key="JAVA" value="584" />
           <entry key="JSP" value="1" />
-          <entry key="PLAIN_TEXT" value="54" />
-          <entry key="Properties" value="6" />
-          <entry key="SPI" value="12" />
-          <entry key="XML" value="58" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="Properties" value="7" />
+          <entry key="SPI" value="23" />
+          <entry key="XML" value="79" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
@@ -114,79 +129,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/RandomLoadBalance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-zk/src/main/resources/META-INF/services/io.seata.discovery.registry.RegistryProvider">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/RoundRobinLoadBalance.java">
+        <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-zk/src/main/java/io/seata/discovery/registry/zk/ZookeeperRegistryProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/concurrent/ThreadLocalRandom.java">
+        <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-zk/src/main/java/io/seata/discovery/registry/zk/ZookeeperRegisterServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="220" column="21" selection-start-line="220" selection-start-column="21" selection-end-line="220" selection-end-column="21" />
+            <state relative-caret-position="-1691">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/AbstractLoadBalance.java">
+        <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-zk/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/LoadBalanceFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/DefaultValues.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
+            <state relative-caret-position="437">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -198,8 +167,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Singleton" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -223,9 +192,14 @@
       <find>CURRENT_FILE_INSTANCE</find>
       <find>serializer</find>
       <find>tailMap</find>
-      <find>LoadLevel</find>
       <find>junit-jupiter-params</find>
       <find>timestampLeftShift</find>
+      <find>io.etcd</find>
+      <find>testcontainers</find>
+      <find>com.alibaba.nacos</find>
+      <find>加载器</find>
+      <find>LoadLevel</find>
+      <find>curator-test</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -235,44 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/seata-config-zk/pom.xml" />
-        <option value="$PROJECT_DIR$/config/seata-config-zk/src/main/java/io/seata/config/zk/DefaultZkSerializer.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-zk/src/main/java/ZookeeperConfigurationProvider.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-zk/src/main/java/io/seata/config/zk/ZookeeperConfigurationProvider.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-core/src/main/java/io/seata/config/ConfigurationChangeEvent.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-core/src/main/java/io/seata/config/Configuration.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-zk/src/main/java/io/seata/config/zk/ZookeeperConfiguration.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-zk/src/test/java/io/seata/config/zk/ZookeeperConfigurationTest.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-nacos/pom.xml" />
-        <option value="$PROJECT_DIR$/config/seata-config-nacos/src/main/java/io/seata/config/nacos/NacosConfigurationProvider.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-nacos/src/main/java/io/seata/config/nacos/NacosConfiguration.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-spring-cloud/pom.xml" />
-        <option value="$PROJECT_DIR$/config/seata-config-spring-cloud/src/main/java/io/seata/config/springcloud/SpringApplicationContextProviderRegistrar.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-spring-cloud/src/main/java/io/seata/config/springcloud/EnableSeataSpringConfig.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-spring-cloud/src/main/java/io/seata/config/springcloud/SpringCloudConfiguration.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-spring-cloud/src/main/java/io/seata/config/springcloud/SpringCloudConfigurationProvider.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-spring-cloud/src/main/java/io/seata/config/springcloud/SpringApplicationContextProvider.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-etcd3/pom.xml" />
-        <option value="$PROJECT_DIR$/config/seata-config-etcd3/src/main/java/io/seata/config/etcd3/EtcdConfigurationProvider.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-etcd3/src/main/java/io/seata/config/etcd3/EtcdConfiguration.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-custom/pom.xml" />
-        <option value="$PROJECT_DIR$/config/seata-config-custom/src/test/java/io/seata/config/CustomConfigurationProviderForTest.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-custom/src/main/resources/META-INF.services/io.seata.config.ConfigurationProvider" />
-        <option value="$PROJECT_DIR$/config/seata-config-custom/src/test/java/io/seata/config/CustomConfigurationForTest.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-custom/src/test/java/io/seata/config/CustomConfigurationTest.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-custom/src/main/java/io/seata/config/custom/CustomConfigurationProvider.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-consul/pom.xml" />
-        <option value="$PROJECT_DIR$/config/seata-config-consul/src/main/java/io/seata/config/consul/ConsulConfigurationProvider.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-consul/src/main/java/io/seata/config/consul/ConsulConfiguration.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-apollo/pom.xml" />
-        <option value="$PROJECT_DIR$/bom/pom.xml" />
-        <option value="$PROJECT_DIR$/config/seata-config-apollo/src/main/java/io/seata/config/apollo/ApolloConfigurationProvider.java" />
-        <option value="$PROJECT_DIR$/config/seata-config-apollo/src/main/java/io/seata/config/apollo/ApolloConfiguration.java" />
-        <option value="$PROJECT_DIR$/discovery/pom.xml" />
-        <option value="$PROJECT_DIR$/discovery/seata-discovery-all/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/discovery/seata-discovery-core/pom.xml" />
-        <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/LoadBalance.java" />
         <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/AbstractLoadBalance.java" />
         <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/LoadBalanceFactory.java" />
         <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/ConsistentHashLoadBalance.java" />
@@ -286,6 +222,44 @@
         <option value="$PROJECT_DIR$/common/src/main/java/io/seata/common/executor/Initialize.java" />
         <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/RandomLoadBalance.java" />
         <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/RoundRobinLoadBalance.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/registry/RegistryService.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/registry/RegistryProvider.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/registry/FileRegistryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/registry/RegistryFactory.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/test/java/io/seata/config/ConfigurationFactoryTest.java" />
+        <option value="$PROJECT_DIR$/config/seata-config-core/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/test/java/io/seata/discovery/loadbalance/LoadBalanceFactoryTest.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-consul/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-consul/src/main/java/io/seata/discovery/registry/consul/ConsulListener.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-consul/src/main/java/io/seata/discovery/registry/consul/ConsulRegistryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-consul/src/main/java/io/seata/discovery/registry/consul/ConsulRegistryProvider.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-consul/src/test/java/io/seata/discovery/registry/consul/ConsulRegistryServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-custom/src/main/java/io/seata/discovery/registry/custom/CustomRegistryProvider.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/registry/RegistryType.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-custom/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-custom/src/test/java/io/seata/discovery/registry/custom/CustomRegistryTest.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-etcd3/src/main/java/io/seata/discovery/registry/etcd3/EtcdRegistryProvider.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-etcd3/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-etcd3/src/main/java/io/seata/discovery/registry/etcd3/EtcdRegistryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-etcd3/src/test/java/io/seata/discovery/registry/etcd/EtcdRegistryProviderTest.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-etcd3/src/test/java/io/seata/discovery/registry/etcd/EtcdRegistryServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-eureka/src/main/java/io/seata/discovery/registry/eureka/CustomEurekaInstanceConfig.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-eureka/src/main/java/io/seata/discovery/registry/eureka/EurekaRegistryProvider.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-eureka/src/main/java/io/seata/discovery/registry/eureka/EurekaRegistryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-nacos/src/main/java/io/seata/discovery/registry/nacos/NacosRegistryProvider.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-nacos/src/main/java/io/seata/discovery/registry/nacos/NacosRegistryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-redis/src/main/java/io/seata/discovery/registry/redis/RedisRegistryProvider.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-redis/src/main/java/io/seata/discovery/registry/redis/RedisRegistryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-sofa/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-sofa/src/main/java/io/seata/discovery/registry/sofa/SofaRegistryProvider.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-sofa/src/main/java/io/seata/discovery/registry/sofa/SofaRegistryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-zk/pom.xml" />
+        <option value="$PROJECT_DIR$/bom/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-zk/src/main/java/io/seata/discovery/registry/zk/ZookeeperRegistryProvider.java" />
+        <option value="$PROJECT_DIR$/discovery/seata-discovery-zk/src/main/java/io/seata/discovery/registry/zk/ZookeeperRegisterServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -309,10 +283,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="980" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="631" />
+    <option name="y" value="5" />
+    <option name="width" value="1294" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -321,7 +295,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,107 +312,81 @@
               <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
               <item name="seatacopy" type="462c0819:PsiDirectoryNode" />
               <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-discovery-core" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-discovery-zk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
               <item name="seatacopy" type="462c0819:PsiDirectoryNode" />
               <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-discovery-core" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-discovery-zk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
               <item name="seatacopy" type="462c0819:PsiDirectoryNode" />
               <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-discovery-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seatacopy" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-discovery-core" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-discovery-zk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
               <item name="seatacopy" type="462c0819:PsiDirectoryNode" />
               <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-discovery-core" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-discovery-zk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
               <item name="seatacopy" type="462c0819:PsiDirectoryNode" />
               <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-discovery-core" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-discovery-zk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="loadbalance" type="462c0819:PsiDirectoryNode" />
+              <item name="zk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
               <item name="seatacopy" type="462c0819:PsiDirectoryNode" />
               <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-discovery-core" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-discovery-zk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
               <item name="seatacopy" type="462c0819:PsiDirectoryNode" />
               <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-discovery-core" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-discovery-zk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
               <item name="seatacopy" type="462c0819:PsiDirectoryNode" />
               <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-discovery-core" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-discovery-zk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seatacopy" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-discovery-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seata" type="462c0819:PsiDirectoryNode" />
-              <item name="loadbalance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seatacopy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="CustomConfigurationProvider&#9;FILE&#9;file://D:/project_idea/seatacopy/config/seata-config-custom/src/main/java/io/seata/config/custom/CustomConfigurationProvider.java&#10;run&#9;FILE&#9;jar://D:/Java/jdk1.8/src.zip!/java/lang/Runnable.java&#10;MethodProxy&#9;PSI&#9;JAVA://net.sf.cglib.proxy.MethodProxy&#10;Configuration&#9;FILE&#9;file://D:/project_idea/seatacopy/config/seata-config-core/src/main/java/io/seata/config/Configuration.java&#10;string&#9;FILE&#9;jar://D:/Java/jdk1.8/src.zip!/java/lang/String.java&#10;inte&#9;FILE&#9;jar://D:/Java/jdk1.8/src.zip!/java/lang/Integer.java&#10;long&#9;PSI&#9;JAVA://java.lang.Long&#10;Modifier&#9;PSI&#9;JAVA://java.lang.reflect.Modifier&#10;lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;appclass&#9;PSI&#9;JAVA://sun.misc.Launcher.AppClassLoader&#10;appclassload&#9;PSI&#9;JAVA://sun.applet.AppletClassLoader&#10;ExtClassLoader &#9;PSI&#9;JAVA://sun.misc.Launcher.ExtClassLoader" />
+    <property name="SearchEverywhereHistoryKey" value="AppClassLoader&#9;PSI&#9;JAVA://sun.misc.Launcher.AppClassLoader&#10;CustomConfigurationProvider&#9;FILE&#9;file://D:/project_idea/seatacopy/config/seata-config-custom/src/main/java/io/seata/config/custom/CustomConfigurationProvider.java&#10;run&#9;FILE&#9;jar://D:/Java/jdk1.8/src.zip!/java/lang/Runnable.java&#10;MethodProxy&#9;PSI&#9;JAVA://net.sf.cglib.proxy.MethodProxy&#10;Configuration&#9;FILE&#9;file://D:/project_idea/seatacopy/config/seata-config-core/src/main/java/io/seata/config/Configuration.java&#10;string&#9;FILE&#9;jar://D:/Java/jdk1.8/src.zip!/java/lang/String.java&#10;inte&#9;FILE&#9;jar://D:/Java/jdk1.8/src.zip!/java/lang/Integer.java&#10;long&#9;PSI&#9;JAVA://java.lang.Long&#10;Modifier&#9;PSI&#9;JAVA://java.lang.reflect.Modifier&#10;lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;appclass&#9;PSI&#9;JAVA://sun.misc.Launcher.AppClassLoader&#10;appclassload&#9;PSI&#9;JAVA://sun.applet.AppletClassLoader&#10;ExtClassLoader &#9;PSI&#9;JAVA://sun.misc.Launcher.ExtClassLoader" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618821348315" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619578813260" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -456,18 +404,18 @@
       <recent name="io.seata" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="io.seata.discovery.loadbalance" />
-      <recent name="io.seata.config.apollo" />
-      <recent name="io.seata.config.consul" />
-      <recent name="io.seata.config" />
-      <recent name="io.seata.config.etcd3" />
+      <recent name="io.seata.discovery.registry.zk" />
+      <recent name="io.seata.discovery.registry.sofa" />
+      <recent name="io.seata.discovery.registry.redis" />
+      <recent name="io.seata.discovery.registry.nacos" />
+      <recent name="io.seata.discovery.registry.eureka" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project_idea\seatacopy\discovery\seata-discovery-core\src\test" />
-      <recent name="D:\project_idea\seatacopy\discovery\seata-discovery-core\src\main\resources\META-INF\services" />
-      <recent name="D:\project_idea\seatacopy\config\seata-config-apollo\src\main\resources\META-INF" />
-      <recent name="D:\project_idea\seatacopy\config\seata-config-apollo\src\main\resources" />
-      <recent name="D:\project_idea\seatacopy\config\seata-config-consul\src\main\resources" />
+      <recent name="D:\project_idea\seatacopy\discovery\seata-discovery-zk\src\main\resources\META-INF\services" />
+      <recent name="D:\project_idea\seatacopy\discovery\seata-discovery-sofa\src\main\resources\META-INF\services" />
+      <recent name="D:\project_idea\seatacopy\discovery\seata-discovery-nacos\src\main\resources\META-INF\services" />
+      <recent name="D:\project_idea\seatacopy\discovery\seata-discovery-eureka\src\main\resources\META-INF\services" />
+      <recent name="D:\project_idea\seatacopy\discovery\seata-discovery-etcd3\src\main\resources\META-INF\services" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -482,69 +430,72 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnhancedServiceLoaderTest.testLoadByClassAndClassLoader">
-    <configuration name="IdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.seata.common.util.IdWorker" />
-      <module name="seata-common" />
+  <component name="RunManager" selected="JUnit.EtcdRegistryServiceImplTest.testRegister">
+    <configuration name="ConfigurationFactoryTest.getInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seata-discovery-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.seata.common.util.*" />
+          <option name="PATTERN" value="io.seata.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnhancedServiceLoaderTest.getAllExtensionClass1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seata-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.seata.common.loader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.seata.common.loader" />
-      <option name="MAIN_CLASS_NAME" value="io.seata.common.loader.EnhancedServiceLoaderTest" />
-      <option name="METHOD_NAME" value="getAllExtensionClass1" />
+      <option name="PACKAGE_NAME" value="io.seata.config" />
+      <option name="MAIN_CLASS_NAME" value="io.seata.config.ConfigurationFactoryTest" />
+      <option name="METHOD_NAME" value="getInstance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhancedServiceLoaderTest.testLoadByClassAndClassLoader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seata-common" />
+    <configuration name="ConsulRegistryServiceImplTest.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seata-discovery-consul" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.seata.common.loader.*" />
+          <option name="PATTERN" value="io.seata.discovery.registry.consul.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.seata.common.loader" />
-      <option name="MAIN_CLASS_NAME" value="io.seata.common.loader.EnhancedServiceLoaderTest" />
-      <option name="METHOD_NAME" value="testLoadByClassAndClassLoader" />
+      <option name="PACKAGE_NAME" value="io.seata.discovery.registry.consul" />
+      <option name="MAIN_CLASS_NAME" value="io.seata.discovery.registry.consul.ConsulRegistryServiceImplTest" />
+      <option name="METHOD_NAME" value="testRegister" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdWorkerTest.testInitUUID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seata-common" />
+    <configuration name="CustomRegistryTest.testCustomRegistryLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seata-discovery-custom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.seata.common.util.*" />
+          <option name="PATTERN" value="io.seata.discovery.registry.custom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.seata.common.util" />
-      <option name="MAIN_CLASS_NAME" value="io.seata.common.util.IdWorkerTest" />
-      <option name="METHOD_NAME" value="testInitUUID" />
+      <option name="PACKAGE_NAME" value="io.seata.discovery.registry.custom" />
+      <option name="MAIN_CLASS_NAME" value="io.seata.discovery.registry.custom.CustomRegistryTest" />
+      <option name="METHOD_NAME" value="testCustomRegistryLoad" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadBalanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EtcdRegistryServiceImplTest.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seata-discovery-etcd3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.seata.discovery.registry.etcd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.seata.discovery.registry.etcd" />
+      <option name="MAIN_CLASS_NAME" value="io.seata.discovery.registry.etcd.EtcdRegistryServiceImplTest" />
+      <option name="METHOD_NAME" value="testRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadBalanceFactoryTest.testGetRegistry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seata-discovery-core" />
       <extension name="coverage">
         <pattern>
@@ -553,25 +504,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.seata.discovery.loadbalance" />
-      <option name="MAIN_CLASS_NAME" value="io.seata.discovery.loadbalance.LoadBalanceTest" />
+      <option name="MAIN_CLASS_NAME" value="io.seata.discovery.loadbalance.LoadBalanceFactoryTest" />
+      <option name="METHOD_NAME" value="testGetRegistry(io.seata.discovery.loadbalance.LoadBalance)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LoadBalanceTest" />
-      <item itemvalue="Application.IdWorker" />
-      <item itemvalue="JUnit.IdWorkerTest.testInitUUID" />
-      <item itemvalue="JUnit.EnhancedServiceLoaderTest.getAllExtensionClass1" />
-      <item itemvalue="JUnit.EnhancedServiceLoaderTest.testLoadByClassAndClassLoader" />
+      <item itemvalue="JUnit.ConfigurationFactoryTest.getInstance" />
+      <item itemvalue="JUnit.LoadBalanceFactoryTest.testGetRegistry" />
+      <item itemvalue="JUnit.ConsulRegistryServiceImplTest.testRegister" />
+      <item itemvalue="JUnit.CustomRegistryTest.testCustomRegistryLoad" />
+      <item itemvalue="JUnit.EtcdRegistryServiceImplTest.testRegister" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EnhancedServiceLoaderTest.testLoadByClassAndClassLoader" />
-        <item itemvalue="JUnit.EnhancedServiceLoaderTest.getAllExtensionClass1" />
-        <item itemvalue="JUnit.IdWorkerTest.testInitUUID" />
-        <item itemvalue="Application.IdWorker" />
-        <item itemvalue="JUnit.LoadBalanceTest" />
+        <item itemvalue="JUnit.EtcdRegistryServiceImplTest.testRegister" />
+        <item itemvalue="JUnit.CustomRegistryTest.testCustomRegistryLoad" />
+        <item itemvalue="JUnit.ConsulRegistryServiceImplTest.testRegister" />
+        <item itemvalue="JUnit.LoadBalanceFactoryTest.testGetRegistry" />
+        <item itemvalue="JUnit.ConfigurationFactoryTest.getInstance" />
       </list>
     </recent_temporary>
   </component>
@@ -608,44 +561,54 @@
       <workItem from="1617794661362" duration="6576000" />
       <workItem from="1618560222068" duration="1000" />
       <workItem from="1618560239091" duration="24566000" />
-      <workItem from="1618818134932" duration="2922000" />
+      <workItem from="1618818134932" duration="9477000" />
+      <workItem from="1618884217604" duration="8436000" />
+      <workItem from="1618910369462" duration="4267000" />
+      <workItem from="1618997871593" duration="2873000" />
+      <workItem from="1619055944446" duration="12490000" />
+      <workItem from="1619335848328" duration="8000" />
+      <workItem from="1619335875271" duration="2000" />
+      <workItem from="1619491011150" duration="1816000" />
+      <workItem from="1619507678871" duration="44000" />
+      <workItem from="1619510169917" duration="1765000" />
+      <workItem from="1619574318343" duration="3482000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoadBalanceTest - 2021.04.08 at 11h 28m 05s.xml">
-      <configuration name="LoadBalanceTest" configurationId="JUnit" />
+    <history-entry file="ConsulRegistryServiceImplTest_testRegister - 2021.04.20 at 11h 31m 56s.xml">
+      <configuration name="ConsulRegistryServiceImplTest.testRegister" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IdWorkerTest_testInitUUID - 2021.04.18 at 22h 06m 22s.xml">
-      <configuration name="IdWorkerTest.testInitUUID" configurationId="JUnit" />
+    <history-entry file="ConsulRegistryServiceImplTest_testRegister - 2021.04.20 at 14h 09m 04s.xml">
+      <configuration name="ConsulRegistryServiceImplTest.testRegister" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IdWorkerTest_testInitUUID - 2021.04.18 at 22h 06m 35s.xml">
-      <configuration name="IdWorkerTest.testInitUUID" configurationId="JUnit" />
+    <history-entry file="ConsulRegistryServiceImplTest_testRegister - 2021.04.20 at 14h 12m 03s.xml">
+      <configuration name="ConsulRegistryServiceImplTest.testRegister" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnhancedServiceLoaderTest_getAllExtensionClass1 - 2021.04.18 at 22h 41m 16s.xml">
-      <configuration name="EnhancedServiceLoaderTest.getAllExtensionClass1" configurationId="JUnit" />
+    <history-entry file="ConsulRegistryServiceImplTest_testRegister - 2021.04.20 at 14h 15m 54s.xml">
+      <configuration name="ConsulRegistryServiceImplTest.testRegister" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnhancedServiceLoaderTest_getAllExtensionClass1 - 2021.04.18 at 22h 41m 28s.xml">
-      <configuration name="EnhancedServiceLoaderTest.getAllExtensionClass1" configurationId="JUnit" />
+    <history-entry file="ConsulRegistryServiceImplTest_testRegister - 2021.04.20 at 14h 15m 59s.xml">
+      <configuration name="ConsulRegistryServiceImplTest.testRegister" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnhancedServiceLoaderTest_getAllExtensionClass1 - 2021.04.18 at 22h 41m 36s.xml">
-      <configuration name="EnhancedServiceLoaderTest.getAllExtensionClass1" configurationId="JUnit" />
+    <history-entry file="ConsulRegistryServiceImplTest_testRegister - 2021.04.20 at 14h 16m 28s.xml">
+      <configuration name="ConsulRegistryServiceImplTest.testRegister" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnhancedServiceLoaderTest_getAllExtensionClass1 - 2021.04.18 at 22h 41m 43s.xml">
-      <configuration name="EnhancedServiceLoaderTest.getAllExtensionClass1" configurationId="JUnit" />
+    <history-entry file="CustomRegistryTest_testCustomRegistryLoad - 2021.04.20 at 17h 56m 50s.xml">
+      <configuration name="CustomRegistryTest.testCustomRegistryLoad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnhancedServiceLoaderTest_testLoadByClassAndClassLoader - 2021.04.18 at 22h 41m 53s.xml">
-      <configuration name="EnhancedServiceLoaderTest.testLoadByClassAndClassLoader" configurationId="JUnit" />
+    <history-entry file="CustomRegistryTest_testCustomRegistryLoad - 2021.04.20 at 18h 08m 07s.xml">
+      <configuration name="CustomRegistryTest.testCustomRegistryLoad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnhancedServiceLoaderTest_getAllExtensionClass1 - 2021.04.18 at 22h 47m 59s.xml">
-      <configuration name="EnhancedServiceLoaderTest.getAllExtensionClass1" configurationId="JUnit" />
+    <history-entry file="EtcdRegistryServiceImplTest_testRegister - 2021.04.22 at 11h 05m 42s.xml">
+      <configuration name="EtcdRegistryServiceImplTest.testRegister" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnhancedServiceLoaderTest_testLoadByClassAndClassLoader - 2021.04.18 at 22h 52m 27s.xml">
-      <configuration name="EnhancedServiceLoaderTest.testLoadByClassAndClassLoader" configurationId="JUnit" />
+    <history-entry file="EtcdRegistryServiceImplTest_testRegister - 2021.04.22 at 11h 16m 19s.xml">
+      <configuration name="EtcdRegistryServiceImplTest.testRegister" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153743000" />
+    <option name="totallyTimeSpent" value="195481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -657,10 +620,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="505" y="4" width="1035" height="840" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.28284183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.3091095" />
+      <window_info id="Structure" order="1" sideWeight="0.5021645" side_tool="true" weight="0.24865952" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5021216" side_tool="true" weight="0.24597855" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24362606" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4427157" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51983005" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.48441926" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.42857143" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3796034" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.23525469" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.24329759" />
       <window_info id="Structure" order="1" sideWeight="0.5021645" side_tool="true" weight="0.24865952" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -670,26 +665,26 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2446959" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4427157" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41867045" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51983005" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.28611898" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.42857143" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.38048092" />
-      <window_info anchor="bottom" id="Spring" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3796034" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.23592493" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.23525469" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -734,12 +729,6 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/config/seata-config-core/src/main/java/io/seata/config/file/YamlFileConfig.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/config/seata-config-core/src/test/java/io/seata/config/ProConfigurationFactoryTest.java</url>
           <line>33</line>
           <properties />
@@ -752,16 +741,22 @@
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/src/main/java/io/seata/common/loader/EnhancedServiceLoader.java</url>
-          <line>370</line>
+          <url>file://$PROJECT_DIR$/discovery/seata-discovery-consul/src/main/java/io/seata/discovery/registry/consul/ConsulRegistryServiceImpl.java</url>
+          <line>95</line>
           <properties />
-          <option name="timeStamp" value="112" />
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/src/main/java/io/seata/common/loader/EnhancedServiceLoader.java</url>
-          <line>426</line>
+          <url>file://$PROJECT_DIR$/discovery/seata-discovery-custom/src/main/java/io/seata/discovery/registry/custom/CustomRegistryProvider.java</url>
+          <line>37</line>
           <properties />
-          <option name="timeStamp" value="114" />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/discovery/seata-discovery-custom/src/main/java/io/seata/discovery/registry/custom/CustomRegistryProvider.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -771,292 +766,156 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/util/DurationUtil.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/etcd/jetcd-core/0.3.0/jetcd-core-0.3.0.jar!/io/etcd/jetcd/options/PutOption.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/util/CompressUtil.java">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-etcd3/src/main/java/io/seata/discovery/registry/etcd3/EtcdRegistryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/util/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1797">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/javax/sql/rowset/serial/SerialBlob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/util/BlobUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/thread/RejectedPolicies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/thread/PositiveAtomicCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/thread/NamedThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/holder/ObjectHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="26" column="79" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/executor/Callback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
+        <state relative-caret-position="297">
+          <caret line="385" column="38" lean-forward="true" selection-start-line="385" selection-start-column="38" selection-end-line="385" selection-end-column="38" />
           <folding>
-            <element signature="e#11566#11567#0" expanded="true" />
-            <element signature="e#11597#11598#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/lang/Long.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        <state relative-caret-position="418">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/net/Inet6Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="834" column="28" lean-forward="true" selection-start-line="834" selection-start-column="28" selection-end-line="834" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/net/InetAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="250" column="11" lean-forward="true" selection-start-line="250" selection-start-column="11" selection-end-line="250" selection-end-column="11" />
-          <folding>
-            <element signature="e#8983#8984#0" expanded="true" />
-            <element signature="e#9021#9022#0" expanded="true" />
-            <element signature="e#9403#9404#0" expanded="true" />
-            <element signature="e#9432#9433#0" expanded="true" />
-            <element signature="e#24187#24188#0" expanded="true" />
-            <element signature="e#24214#24215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/net/Inet4Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="310" column="38" lean-forward="true" selection-start-line="310" selection-start-column="38" selection-end-line="310" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/io/seata/common/util/CompressUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-etcd3/src/test/java/io/seata/discovery/registry/etcd/EtcdRegistryProviderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/io/seata/common/util/BeanUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/lang/Byte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="514" column="7" lean-forward="true" selection-start-line="514" selection-start-column="7" selection-end-line="514" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/util/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1609">
-          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/io/seata/common/util/IdWorkerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/loader/EnhancedServiceLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5396">
-          <caret line="301" column="13" selection-start-line="301" selection-start-column="13" selection-end-line="301" selection-end-column="13" />
-          <folding>
-            <element signature="e#5376#5377#0" expanded="true" />
-            <element signature="e#5443#5444#0" expanded="true" />
-            <element signature="e#6474#6475#0" expanded="true" />
-            <element signature="e#6514#6515#0" expanded="true" />
-            <element signature="e#10435#10436#0" expanded="true" />
-            <element signature="e#10495#10496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/executor/Initialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/util/CollectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4522">
-          <caret line="251" selection-start-line="251" selection-end-line="251" />
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/test/java/io/seata/common/loader/ChineseHello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/io/seata/common/loader/LatinHello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/resources/META-INF/seata/frenchhello/io.seata.common.loader.Hello">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/resources/META-INF/seata/io.seata.common.loader.Hello">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/test/java/io/seata/discovery/loadbalance/LoadBalanceFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/io/seata/common/loader/EnglishHello.java">
+    <entry file="file://$PROJECT_DIR$/config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/test/java/io/seata/common/loader/EnhancedServiceLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="760">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/resources/META-INF/services/io.seata.common.loader.Hello">
+    <entry file="jar://D:/Java/jdk1.8/jre/lib/rt.jar!/sun/misc/Launcher.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="2679">
+          <caret line="174" column="16" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/Collections.java">
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="173" column="27" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="27" />
+        <state relative-caret-position="2603">
+          <caret line="187" column="11" selection-start-line="187" selection-start-column="11" selection-end-line="187" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/security/SecureClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4864">
+          <caret line="315" column="11" selection-start-line="315" selection-start-column="11" selection-end-line="315" selection-end-column="11" />
           <folding>
-            <element signature="e#7284#7285#0" expanded="true" />
-            <element signature="e#7312#7313#0" expanded="true" />
+            <element signature="e#11991#11992#0" expanded="true" />
+            <element signature="e#12045#12046#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/test/java/io/seata/common/loader/FrenchHello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/io/seata/common/loader/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/rpc/RpcStatus.java">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-etcd3/src/test/java/io/seata/discovery/registry/etcd/EtcdRegistryServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="703">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding>
-            <element signature="e#1880#1881#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
-            <element signature="e#2059#2060#0" expanded="true" />
-            <element signature="e#2118#2119#0" expanded="true" />
-            <element signature="e#2475#2476#0" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/loader/LoadLevel.java">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-eureka/src/main/java/io/seata/discovery/registry/eureka/CustomEurekaInstanceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/loader/ExtensionDefinition.java">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-eureka/src/main/java/io/seata/discovery/registry/eureka/EurekaRegistryProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="228">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding>
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/loader/EnhancedServiceNotFoundException.java">
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/lang/annotation/ElementType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="969">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/exception/NestableRuntimeException.java">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-eureka/src/main/java/io/seata/discovery/registry/eureka/EurekaRegistryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="608">
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/seata-config-all/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/loader/Scope.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1065,106 +924,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/io/seata/common/loader/EnhancedServiceLoaderTest.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/loader/EnhancedServiceLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="7201">
+          <caret line="402" column="42" selection-start-line="402" selection-start-column="30" selection-end-line="402" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/seata-config-custom/src/main/java/io/seata/config/custom/CustomConfigurationProvider.java">
+    <entry file="file://$PROJECT_DIR$/config/seata-config-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-nacos/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="95">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/loader/LoadLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-eureka/src/main/resources/META-INF/services/io.seata.discovery.registry.RegistryProvider">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/seata-config-core/src/main/java/io/seata/config/file/YamlFileConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/1.3.3/nacos-api-1.3.3.jar!/com/alibaba/nacos/api/naming/NamingService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="2449" column="25" selection-start-line="2449" selection-start-column="25" selection-end-line="2449" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/seata-config-core/src/main/java/io/seata/config/ConfigurationKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/registry/RegistryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/1.3.3/nacos-api-1.3.3.jar!/com/alibaba/nacos/api/naming/pojo/Instance.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/LeastActiveLoadBalance.java">
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/net/InetSocketAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="226">
+          <caret line="214" column="11" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/test/java/io/seata/discovery/loadbalance/LoadBalanceTest.java">
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        <state relative-caret-position="226">
+          <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-nacos/src/main/java/io/seata/discovery/registry/nacos/NacosRegistryProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="1232" column="22" selection-start-line="1232" selection-start-column="22" selection-end-line="1232" selection-end-column="22" />
-          <folding>
-            <element signature="e#10902#10903#0" expanded="true" />
-            <element signature="e#10948#10949#0" expanded="true" />
-            <element signature="e#47036#47037#0" expanded="true" />
-            <element signature="e#47092#47093#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/AbstractLoadBalance.java">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-nacos/src/main/java/io/seata/discovery/registry/nacos/NacosRegistryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/concurrent/ThreadLocalRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="220" column="21" selection-start-line="220" selection-start-column="21" selection-end-line="220" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/seata/common/DefaultValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/LoadBalanceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/RandomLoadBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        <state relative-caret-position="285">
+          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6304#6305#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-nacos/src/main/resources/META-INF/services/io.seata.discovery.registry.RegistryProvider">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
+        <state>
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-core/src/main/java/io/seata/discovery/loadbalance/RoundRobinLoadBalance.java">
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-redis/src/main/java/io/seata/discovery/registry/redis/RedisRegistryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-redis/src/main/java/io/seata/discovery/registry/redis/RedisListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-redis/src/main/java/io/seata/discovery/registry/redis/RedisRegistryProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-sofa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-sofa/src/main/java/io/seata/discovery/registry/sofa/SofaRegistryProvider.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-sofa/src/main/java/io/seata/discovery/registry/sofa/SofaRegistryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-sofa/src/main/resources/META-INF/services/io.seata.discovery.registry.RegistryProvider">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bom/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-zk/src/main/resources/META-INF/services/io.seata.discovery.registry.RegistryProvider">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-zk/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-zk/src/main/java/io/seata/discovery/registry/zk/ZookeeperRegisterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1691">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/seata-discovery-zk/src/main/java/io/seata/discovery/registry/zk/ZookeeperRegistryProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1163,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>seata-discovery-core</last-edited>
+          <last-edited>seata-discovery-etcd3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
