@@ -12,6 +12,7 @@
     <module>bom</module>
     <module>config</module>
     <module>discovery</module>
+    <module>core</module>
   </modules>
   <packaging>pom</packaging>
 

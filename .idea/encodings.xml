@@ -13,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/config/seata-config-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/seata-config-spring-cloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/seata-config-zk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery/seata-discovery-all" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery/seata-discovery-consul" charset="UTF-8" />

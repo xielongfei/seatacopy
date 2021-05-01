@@ -16,6 +16,7 @@
         <module name="seata-config-nacos" />
         <module name="seata-config-spring-cloud" />
         <module name="seata-config-zk" />
+        <module name="seata-core" />
         <module name="seata-discovery-all" />
         <module name="seata-discovery-consul" />
         <module name="seata-discovery-core" />
