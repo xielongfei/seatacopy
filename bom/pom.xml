@@ -48,6 +48,23 @@
         <commons-dbcp2.version>2.7.0</commons-dbcp2.version>
         <ant.version>1.10.6</ant.version>
         <lz4.version>1.7.1</lz4.version>
+        <caffeine.version>2.7.0</caffeine.version>
+        <protostuff.version>1.5.9</protostuff.version>
+        <jackson.version>2.9.9</jackson.version>
+        <mysql.client.version>5.1.35</mysql.client.version>
+
+        <!-- Compiler settings properties -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <protobuf.version>3.7.1</protobuf.version>
+        <grpc.version>1.17.1</grpc.version>
+        <junit.version>4.12</junit.version>
+        <kryo.version>4.0.2</kryo.version>
+        <kryo-serializers.version>0.42</kryo-serializers.version>
+        <hessian.version>4.0.63</hessian.version>
+        <fst.version>2.57</fst.version>
+        <groovy.version>2.4.4</groovy.version>
     </properties>
 
     <dependencyManagement>
@@ -168,6 +185,11 @@
                 <version>${httpcore.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.github.ben-manes.caffeine</groupId>
+                <artifactId>caffeine</artifactId>
+                <version>${caffeine.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.testcontainers</groupId>
                 <artifactId>testcontainers</artifactId>
                 <version>${testcontainers.version}</version>
@@ -274,6 +296,41 @@
                 <groupId>org.lz4</groupId>
                 <artifactId>lz4-java</artifactId>
                 <version>${lz4.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.protostuff</groupId>
+                <artifactId>protostuff-core</artifactId>
+                <version>${protostuff.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.protostuff</groupId>
+                <artifactId>protostuff-runtime</artifactId>
+                <version>${protostuff.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.esotericsoftware</groupId>
+                <artifactId>kryo</artifactId>
+                <version>${kryo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.javakaffee</groupId>
+                <artifactId>kryo-serializers</artifactId>
+                <version>${kryo-serializers.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.ruedigermoeller</groupId>
+                <artifactId>fst</artifactId>
+                <version>${fst.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.client.version}</version>
             </dependency>
         </dependencies>
 

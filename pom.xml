@@ -16,6 +16,8 @@
     <module>compressor</module>
     <module>metrics</module>
     <module>sqlparser</module>
+    <module>rm</module>
+    <module>rm-datasource</module>
   </modules>
   <packaging>pom</packaging>
 
