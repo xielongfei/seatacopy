@@ -8,6 +8,7 @@
   <artifactId>seata-copy</artifactId>
   <version>${revision}</version>
   <modules>
+    <module>all</module>
     <module>common</module>
     <module>bom</module>
     <module>config</module>
@@ -18,6 +19,8 @@
     <module>sqlparser</module>
     <module>rm</module>
     <module>rm-datasource</module>
+    <module>saga</module>
+    <module>tm</module>
   </modules>
   <packaging>pom</packaging>
 
