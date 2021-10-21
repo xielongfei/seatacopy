@@ -3,34 +3,34 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>seata-saga</artifactId>
+        <artifactId>seata-serializer</artifactId>
         <groupId>io.seata</groupId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <name>seata-saga-engine-store ${project.version}</name>
-    <artifactId>seata-saga-engine-store</artifactId>
-
+    <artifactId>seata-serializer-kryo</artifactId>
+    <packaging>jar</packaging>
+    <name>seata-serializer-kryo ${project.version}</name>
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>seata-saga-engine</artifactId>
+            <artifactId>seata-common</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>seata-saga-rm</artifactId>
+            <artifactId>seata-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>seata-saga-tm</artifactId>
-            <version>${project.version}</version>
+            <groupId>com.esotericsoftware</groupId>
+            <artifactId>kryo</artifactId>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>seata-serializer-all</artifactId>
-            <version>${project.version}</version>
+            <groupId>de.javakaffee</groupId>
+            <artifactId>kryo-serializers</artifactId>
         </dependency>
     </dependencies>
+
+
 </project>

@@ -19,6 +19,7 @@
         <spring.version>4.3.23.RELEASE</spring.version>
         <netty4.version>4.1.30.Final</netty4.version>
         <slf4j-api.version>1.7.22</slf4j-api.version>
+        <logback-classic.version>1.2.0</logback-classic.version>
         <commons-lang.version>2.6</commons-lang.version>
         <config.version>1.2.1</config.version>
         <cglib.version>3.1</cglib.version>
@@ -36,10 +37,13 @@
         <eureka-clients.version>1.9.5</eureka-clients.version>
         <archaius-core.version>0.7.6</archaius-core.version>
         <redis-clients.version>3.2.0</redis-clients.version>
+        <mock-jedis.version>0.1.16</mock-jedis.version>
         <sofa.registry.version>5.2.0</sofa.registry.version>
         <curator-test.version>2.9.1</curator-test.version>
         <commons-pool2.version>2.4.2</commons-pool2.version>
         <commons-pool.version>1.6</commons-pool.version>
+        <commons-dbcp2.version>2.7.0</commons-dbcp2.version>
+        <hikari.version>3.4.3</hikari.version>
         <h2.version>1.4.181</h2.version>
         <fastjson.version>1.2.73</fastjson.version>
         <druid.version>1.1.23</druid.version>
@@ -51,7 +55,9 @@
         <caffeine.version>2.7.0</caffeine.version>
         <protostuff.version>1.5.9</protostuff.version>
         <jackson.version>2.9.9</jackson.version>
+        <jcommander.version>1.72</jcommander.version>
         <mysql.client.version>5.1.35</mysql.client.version>
+        <postgres.client.version>42.1.4</postgres.client.version>
 
         <!-- Compiler settings properties -->
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -65,6 +71,7 @@
         <hessian.version>4.0.63</hessian.version>
         <fst.version>2.57</fst.version>
         <groovy.version>2.4.4</groovy.version>
+        <hessian.version>4.0.63</hessian.version>
     </properties>
 
     <dependencyManagement>
@@ -288,6 +295,11 @@
                 <version>${commons-dbcp2.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.zaxxer</groupId>
+                <artifactId>HikariCP</artifactId>
+                <version>${hikari.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.ant</groupId>
                 <artifactId>ant</artifactId>
                 <version>${ant.version}</version>
@@ -333,6 +345,11 @@
                 <version>${mysql.client.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${postgres.client.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.codehaus.groovy</groupId>
                 <artifactId>groovy-all</artifactId>
                 <version>${groovy.version}</version>
@@ -346,6 +363,32 @@
                         <artifactId>junit-platform-launcher</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>com.caucho</groupId>
+                <artifactId>hessian</artifactId>
+                <version>${hessian.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.protobuf</groupId>
+                <artifactId>protobuf-java</artifactId>
+                <version>${protobuf.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.beust</groupId>
+                <artifactId>jcommander</artifactId>
+                <version>${jcommander.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback-classic.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.fppt</groupId>
+                <artifactId>jedis-mock</artifactId>
+                <version>${mock-jedis.version}</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
 

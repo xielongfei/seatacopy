@@ -21,6 +21,10 @@
     <module>rm-datasource</module>
     <module>saga</module>
     <module>tm</module>
+    <module>serializer</module>
+    <module>spring</module>
+    <module>tcc</module>
+    <module>server</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -40,6 +44,17 @@
     <mockito.version>2.23.4</mockito.version>
     <assertj-core.version>3.12.2</assertj-core.version>
     <junit-platform-launcher.version>1.4.2</junit-platform-launcher.version>
+
+    <!-- for docker image-->
+    <image.publish.skip>true</image.publish.skip>
+    <image.tags>latest</image.tags>
+
+    <checkstyle.skip>true</checkstyle.skip>
+    <license.skip>true</license.skip>
+
+    <!-- for jdbc driver when package  -->
+    <mysql.jdbc.version>5.1.35</mysql.jdbc.version>
+    <mysql8.jdbc.version>8.0.19</mysql8.jdbc.version>
   </properties>
 
   <dependencies>
